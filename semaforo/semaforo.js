@@ -20,11 +20,11 @@ const direcionador = (evento) => {
 const lightActive = {
     'green': {
       changeImg: () => img.src = 'img/verde.png',
-      time: 7000,
+      time: 10000,
     },
     'red': {
       changeImg: () => img.src = 'img/vermelho.png',
-      time: 7000,
+      time: 10000,
     },
     'yellow': {
         changeImg: () => img.src = 'img/amarelo.png',
