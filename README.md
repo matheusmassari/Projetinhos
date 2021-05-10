@@ -1,2 +1,2 @@
 # Projetinhos
-Pequenos projetos.
+Pequenos projetos. Edição ao vivo !
