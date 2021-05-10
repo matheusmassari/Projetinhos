@@ -1,0 +1,61 @@
+header {
+    font-size:25pt;
+    margin: auto;
+    text-align: center;
+    color: #ffb515;
+}
+
+body {
+    font-family: 'Fira Code', monospace;
+    background-color: black;
+}
+
+#enquadramento {
+    width: 350px;
+    height: 350px;
+    border-radius: 1cm;
+    margin: auto;
+    margin-top: 20px;
+
+    background-color:  #ffb515;
+    color: black;
+    text-align: left;
+
+    padding-top: 15px;
+    padding-left: 10px;
+
+}
+
+#resultado_css {
+    padding-top: 30pt;
+    margin: auto;
+    text-align: center;
+    border-radius: 0.5cm;
+    width: 300px;
+    height: 100px;
+    background-color: black;
+    color: #ffb515;
+}
+
+#input1 {
+    width: 80px;
+    margin-left: 20px;
+}
+#input2 {
+    width: 60px;
+    margin-left: 1px
+}
+#input3 {
+    width: 60px;
+    margin-left: 20px;
+}
+#botao {
+    margin-left: 100pt;
+    margin-bottom: 12pt;
+    margin-top: 8pt;
+    font-family: 'Fira Code', monospace;
+    border-radius: 4px;
+}
+#botao:hover {
+    background-color: chartreuse;
+}
