@@ -1,0 +1,22 @@
+.main {
+    color: blue;
+    border: 2px solid #ccc;
+    padding: 0.5cm;
+}
+.special {
+    color: black;
+    font-weight: bold;
+}
+.segundalista {
+    color: green;
+    font-size: 15pt;
+}
+.classe1 a {
+    color: inherit;
+}
+.classe2 a {
+    color: initial;
+}
+.classe3 a {
+    color: unset;
+}
