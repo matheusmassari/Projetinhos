@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bricando com date</title>
+</head>
+<body>
+    <button id="ini">Inicio</button>
+    <p id="res">Aqui sua resposta</p>
+    <p id="res2">Segunda linha</p>
+    
+
+    <script>
+    let teste = document.getElementById("ini")
+    teste.addEventListener('click', passaTempo)
+
+    
+        function passaTempo() {
+            var inicio = Date.now()
+            esperaAi = 3000 + new Date().getTime()
+            while(new Date() < esperaAi) {}
+            var fim = Date.now()
+            var decorrido = fim - inicio
+            segundosDecorridos = decorrido/1000
+            res.innerHTML = `Passaram-se ${segundosDecorridos} segundos`
+            
+        }
+
+    
+    
+
+    </script>
+</body>
+</html>
